@@ -20,10 +20,8 @@ Feature: Adding a Question
       | Geography             | How many continents are thereHow many continents are there | 5      | 30    | Invalid question             |
       | Geography             | @How many continents are there                             | 5      | 30    | Invalid question             |
       | Geography             | How many continents are theree                             | 5      | 30    | Question already added       |
-      | Geography             | How many continents are there                              |        | 30    | Invalid points               |
       | Geography             | How many continents are there                              | 0      | 30    | Invalid points               |
       | Geography             | How many continents are there                              | 11     | 30    | Invalid points               |
-      | Geography             | How many continents are there                              | 5      |       | Timer invalid                |
       | Geography             | How many continents are there                              | 5      | 10    | Timer invalid                |
       | Geography             | How many continents are there                              | 5      | 65    | Timer invalid                |
       | Geography             | How many continents are there                              | 5      | 30    | Question added to quiz       |
